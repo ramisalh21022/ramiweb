@@ -35,7 +35,7 @@ lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
 st_lottie(lottie_animation, key="lottie-holiday", height=300)
 
 about_page=st.Page("views/about_me.py",title="ABOUT ME",icon=":material/account_circle:",default=True,)
-project_11_page=st.Page("views/peoplecounter_enter_exit.py",title="peoplecounter_enter_exit.py",icon=":material/bar_chart:",)
+project_11_page=st.Page("views/peoplecounter_enter_exit.py",title="peoplecounter_enter_exit",icon=":material/bar_chart:",)
 project_10_page=st.Page("views/yolo11-detect-speed-car.py",title="yolo11-detect-speed-car",icon=":material/bar_chart:",)
 project_1_page=st.Page("views/detected_img_video_camera.py",title="detected_img_video_camera",icon=":material/bar_chart:",)
 project_2_page=st.Page("views/plate_licens_yolo10.py",title="plate_licens_yolo10",icon=":material/smart_toy:",)
