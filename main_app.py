@@ -35,6 +35,8 @@ lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
 st_lottie(lottie_animation, key="lottie-holiday", height=300)
 
 about_page=st.Page("views/about_me.py",title="ABOUT ME",icon=":material/account_circle:",default=True,)
+project_16_page=st.Page("views/education-app.py",title="education-app-store-in-flutter-database",icon=":material/bar_chart:",)
+
 project_15_page=st.Page("views/whatsapp-n8nr.py",title="automation-supermarket-n8n-bootwhatsapp",icon=":material/bar_chart:",)
 project_14_page=st.Page("views/pet-stor-flutter-supabase.py",title="application-mobil-web-for-pet-store-in-flutter-supabase",icon=":material/bar_chart:",)
 project_12_page=st.Page("views/mall_robbery.py",title="mall_robbery",icon=":material/bar_chart:",)
@@ -51,7 +53,7 @@ project_8_page=st.Page("views/market.py",title="market",icon=":material/smart_to
 project_9_page=st.Page("views/exam_class_list_except.py",title="exam_class_list_except",icon=":material/smart_toy:",)
 
 
-pg=st.navigation ({"info":[about_page],"projects":[project_15_page,project_14_page,project_12_page,project_11_page,project_10_page,project_1_page,project_2_page,project_3_page,project_4_page,project_5_page,project_6_page,project_7_page,project_8_page,project_9_page]},)
+pg=st.navigation ({"info":[about_page],"projects":[project_16_page,project_15_page,project_14_page,project_12_page,project_11_page,project_10_page,project_1_page,project_2_page,project_3_page,project_4_page,project_5_page,project_6_page,project_7_page,project_8_page,project_9_page]},)
 #pg=st.navigation (pages=[about_page,project_1_page,project_2_page])
 st.logo("assets/LOGOrami.png")
 #st.sidebar.markdown("Made with ❤️❤️ by Rami")
