@@ -37,7 +37,7 @@ st_lottie(lottie_animation, key="lottie-holiday", height=300)
 about_page=st.Page("views/about_me.py",title="ABOUT ME",icon=":material/account_circle:",default=True,)
 project_16_page=st.Page("views/education-app.py",title="education-app-store-in-flutter-database",icon=":material/bar_chart:",)
 
-project_15_page=st.Page("views/whatsapp-n8nr.py",title="automation-supermarket-n8n-bootwhatsapp",icon=":material/bar_chart:",)
+project_15_page=st.Page("views/whatsapp-n8n.py",title="automation-supermarket-n8n-bootwhatsapp",icon=":material/bar_chart:",)
 project_14_page=st.Page("views/pet-stor-flutter-supabase.py",title="application-mobil-web-for-pet-store-in-flutter-supabase",icon=":material/bar_chart:",)
 project_12_page=st.Page("views/mall_robbery.py",title="mall_robbery",icon=":material/bar_chart:",)
 project_11_page=st.Page("views/peoplecounter_enter_exit.py",title="peoplecounter_enter_exit",icon=":material/bar_chart:",)
